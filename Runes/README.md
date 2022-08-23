@@ -20,6 +20,7 @@ To install Runes, simply download the latest release from [Github](https://githu
 windower/
 ├── addons/
 │   └── Runes/
+│       ├── .versioninfo
 │       ├── README.md
 │       ├── RuneManager.lua
 │       ├── Runes.lua
