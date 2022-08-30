@@ -28,12 +28,12 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 _addon.name = 'Runes'
 _addon.author = 'DefrostedTuna'
-_addon.version = '1.0'
+_addon.version = '1.0.1'
 _addon.commands = {'runes'}
 
 local MovementLibrary = require 'DefrostedTuna/Movement'
 local RuneValidator = require 'RuneValidator'
-local RuneManager = require 'RuneManager'
+local RuneManagerModule = require 'RuneManager'
 local RuneManager = RuneManagerModule:new(
     MovementLibrary:new(),
     RuneValidator:new()
